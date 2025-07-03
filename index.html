@@ -43,19 +43,22 @@
 
       <h2>Lorem ipsum dolor sit</h2>
 
-      <fieldset>
+      <div>
       <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" /><br /><br />
-        <label for="frame">Sex:</label>
+        <label for="sex">Sex:</label>
         <input type="radio" id="male" name="Sex" />
         <label for="male">Male</label>
         <input type="radio" id="female" name="Sex" />
         <label for="female">Female</label><br /><br />
         <label for="Country">Country:</label>
         <select id="country" name="country">
-          <option value="country">Select a country</option></select><br /><br />
-        <label for="frame">Message:</label><br />
+          <option value=" " disabled selected>Select a country</option>
+          <option value="ghana">Ghana</option>
+          <option value="nigeria">Nigeria</option>
+        </select><br /><br />
+        <label for="message">Message:</label><br />
         <textarea
           id="text"
           name="text"
@@ -66,7 +69,7 @@
         <label for="frame">Suscribe?</label><br /><br />
         <button>Submit</button>
       </form>
-      </fieldset>
+    </div>
 
     </div>
     <hr>
